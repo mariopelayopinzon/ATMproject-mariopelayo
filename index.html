@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Banking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to your Online Bank</h1>
+    <div id="accounts">
+      <!-- Accounts will be dynamically generated here -->
+    </div>
+    <div class="actions">
+      <label for="username">Username:</label>
+      <select id="username">
+        <option value="Mario">Mario Pelaez</option>
+        <option value="Paco">Francisco Aguilar</option>
+        <option value="Luis">Luis Escobar</option>
+        <option value="Pedro">Pedro Almodovar</option>
+      </select>
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" min="0" step="0.01" placeholder="Enter amount">
+      <button onclick="deposit()">Deposit</button>
+      <button onclick="withdraw()">Withdraw</button>
+      <button onclick="checkBalance()">Check Balance</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
