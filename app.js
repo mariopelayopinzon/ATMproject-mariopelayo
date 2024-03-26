@@ -1,9 +1,9 @@
 // User objects with initial balances
 const users = {
-    Mario: { balance: 1000.00 },
-    Paco: { balance: 1000.00 },
-    Luis: { balance: 1000.00 },
-    Pedro: { balance: 1000.00 }
+    Mario: { balance: 1200.00 },
+    Paco: { balance: 1500.00 },
+    Luis: { balance: 1700.00 },
+    Pedro: { balance: 2200.00 }
   };
   
   // Function to deposit money
